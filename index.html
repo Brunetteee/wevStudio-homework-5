@@ -341,12 +341,27 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-form-container">
+                <p class="footer-form-headerline">Subscribe</p>
+
+                <form class="footer-form">
+                    <label for="" class="footer-form-lable">
+                        <input type="email" name="subscribe-form" placeholder="E-mail" class="footer-form-input" id="subscribe-form">
+                    </label>
+                    <button type="submit" class="footer-form-butter">
+                        Subscribe
+                        <svg width="24" height="24" class="footer-form-icon">
+                            <use href="./images/icons.svg#icon-paper-plane"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
 
     <!-- -------overlay-bottom------- -->
 
-     <div class="overlay-bottom">
+    <div class="overlay-bottom">
         <div class="overlay-bottom-wrapper">
             <button type="button" class="overlay-bottom-close-button">
                 <svg width="8" height="8" class="overlay-bottom-wrapper-icon">
@@ -359,57 +374,56 @@
 
             <form>
                 <div class="overlay-bottom-wrapper-input">
-                    <label for="overlay-name" class="fotm-label" >Name</label>
+                    <label for="user-name" class="fotm-label" >Name</label>
                     <div class="overlay-bottom-wrapper-input-icon">
-                        <input type="text" class="form-input" id="overlay-name">
+                        <input type="text" class="form-input" id="user-name" name="user-name">
                         <svg width="18" height="24" class="overlay-bottom-wrapper-icon">
                             <use href="./images/icons.svg#icon-user"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="overlay-bottom-wrapper-input">
-                    <label for="overlay-phone" class="fotm-label" >Phone</label>
 
+                 <div class="overlay-bottom-wrapper-input">
+                    <label for="user-name" class="fotm-label" >Phone</label>
                     <div class="overlay-bottom-wrapper-input-icon">
-                        <input type="tel" class="form-input" id="overlay-phone">
+                        <input type="text" class="form-input" id="user-name" name="user-name">
                         <svg width="18" height="24" class="overlay-bottom-wrapper-icon">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
+                </div>
 
                    
-                </div>
-                <div class="overlay-bottom-wrapper-input">
-                    <label for="overlay-email" class="fotm-label" >Email</label>
-
+                 <div class="overlay-bottom-wrapper-input">
+                    <label for="user-name" class="fotm-label" >Email</label>
                     <div class="overlay-bottom-wrapper-input-icon">
-                        <input type="email" class="form-input" id="overlay-email">
+                        <input type="text" class="form-input" id="user-name" name="user-name">
                         <svg width="18" height="24" class="overlay-bottom-wrapper-icon">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
-
-                    
-                </div>
-                <div class="overlay-bottom-wrapper-input">
-                    <label for=" overlay-textarea" class="fotm-label">Comment</label>
-                    <textarea placeholder="Text input" class="form-textarea" id="overlay-textarea" ></textarea>
                 </div>
 
+                <div class="overlay-bottom-wrapper-input">
+                    <label for="user-comment" class="fotm-label">Comment</label>
+                    <textarea placeholder="Text input" class="form-textarea" id="user-comment" name="user-comment"></textarea>
+                </div>
 
                 <div class="overlay-bottom-wrapper-input">
-                    <input type="checkbox" id="overlay-checkbox" class="form-checkbox">
-                    <div>
-                        
-                        <label for="overlay-checkbox" class="fotm-label">
-                            <span class="form-custom-checkbox"></span>
+                    <input type="checkbox" id="user-privacy" class="visually-hidden" value="true" name="user-privacy" >
+                        <label for="overlay-checkbox" class="form-label" for="user-privacy">
+                            <span class="form-custom-checkbox">
+                                <svg width="16" height="16" class="form-custom-checkbox-icon">
+                                    <use href="./images/icons.svg#icon-check_box"></use>
+                                </svg>
+                            </span>
                             I accept the terms and conditions of the <a href="" class="highlight">Privacy Policy</a>
                         </label>
-                    </div>
                 </div>
+
                 <button type="submit" class="overlay-bottom-button-send">Send</button>
             </form>
         </div>
-     </div>
+     </div> 
 </body>
 </html>

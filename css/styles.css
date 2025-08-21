@@ -656,6 +656,10 @@ img {
     margin-bottom: 8px;
 }
 
+.overlay-bottom-wrapper-input.textarea {
+    margin-bottom: 16px;
+}
+
 .overlay-bottom-wrapper-input.checkbox {
     margin-bottom: 24px;
 }

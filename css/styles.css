@@ -699,7 +699,7 @@ img {
     fill: transparent;
 }
 
-.visually-hidden.overlay:checked + label .form-custom-checkbox{
+.visually-hidden.overlay:checked ~ label .form-custom-checkbox{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;;
